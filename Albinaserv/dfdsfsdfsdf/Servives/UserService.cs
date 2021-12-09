@@ -24,9 +24,12 @@ namespace Albina.BuisnessLogic.Core.Servives
             _context = context;
         }
 
-        public Task<UserInformationBlo> Auth(UserIndentityBlo userIndentityBlo)
+        public async Task<UserInformationBlo> Auth(UserIndentityBlo userIndentityBlo)
         {
-            throw new NotImplementedException();
+           UserRto user = await _context.Users.FirstOrDefaultAsync(g => g.Password == userIndentityBlo.Password && g.PhoneNumber == userIndentityBlo.Number);
+            if (user == null)
+                throw new NotFoundExceptions("Неверный номер телефона или пароль");
+            return await ConvertToUserInformation(user);
         }
 
         public Task<bool> DoesExist(int numberPrefix, int number)
@@ -42,9 +45,18 @@ namespace Albina.BuisnessLogic.Core.Servives
             return userInformationBlo;
         }
 
-        public Task<UserInformationBlo> Register(UserIndentityBlo userIndentityBlo)
+        public async Task<UserInformationBlo> Register(UserIndentityBlo userIndentityBlo)
         {
-            throw new NotImplementedException();
+            UserRto newUser = new UserRto()
+            {
+                PhoneNumberPrefix = userIndentityBlo.NumberPrefix,
+                PhoneNumber = userIndentityBlo.Number,
+                Password = userIndentityBlo.Password
+            };
+            _context.Users.Add(newUser);
+            await _context.SaveChangesAsync();
+             return await ConvertToUserInformation(newUser);
+            
         }
 
         public Task<UserInformationBlo> Update(UserIndentityBlo userIndentityBlo, UserUpdateBlo userUpdateBlo)
