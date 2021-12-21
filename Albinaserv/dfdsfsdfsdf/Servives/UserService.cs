@@ -32,9 +32,10 @@ namespace Albina.BuisnessLogic.Core.Servives
             return await ConvertToUserInformation(user);
         }
 
-        public Task<bool> DoesExist(int numberPrefix, int number)
+        public async Task<bool> DoesExist(int numberPrefix, int number)
         {
-            bool result = await _context.Users.AnyAsync (x => x.PhoneNumberPrefix == numberPrefix && x.PhoneNumber == number)
+            bool result = await _context.Users.AnyAsync(x => x.PhoneNumberPrefix == numberPrefix && x.PhoneNumber == number);
+            return result;
         }
 
         public async Task<UserInformationBlo> Get(int userId)

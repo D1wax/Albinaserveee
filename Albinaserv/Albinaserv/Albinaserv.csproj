@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.DataAcess.Core\Albina.DataAccess.Core.csproj" />
+    <ProjectReference Include="..\Aldf\Albina.Core.csproj" />
+    <ProjectReference Include="..\dfdsfsdfsdf\Albina.BuisnessLogic.Core.csproj" />
   </ItemGroup>
 
 

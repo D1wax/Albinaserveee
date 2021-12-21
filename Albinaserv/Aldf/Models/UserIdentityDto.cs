@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Albina.Core.Models
 {
-    class UserIdentityDto
+    public class UserIdentityDto
     {
         public int Id { get; set; }
         public int NumberPrefix { get; set; }

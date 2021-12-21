@@ -1,0 +1,9 @@
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\bin\Debug\netcoreapp3.1\Albina.Core.deps.json
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\bin\Debug\netcoreapp3.1\Albina.Core.dll
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\bin\Debug\netcoreapp3.1\Albina.Core.pdb
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\obj\Debug\netcoreapp3.1\Albina.Core.csprojAssemblyReference.cache
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\obj\Debug\netcoreapp3.1\Albina.Core.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\obj\Debug\netcoreapp3.1\Albina.Core.AssemblyInfo.cs
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\obj\Debug\netcoreapp3.1\Albina.Core.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\obj\Debug\netcoreapp3.1\Albina.Core.dll
+C:\Users\StudentDev\Documents\GitHub\Albinaserveee\Albinaserv\Aldf\obj\Debug\netcoreapp3.1\Albina.Core.pdb
