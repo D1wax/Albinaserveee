@@ -34,7 +34,7 @@ namespace Albina.BuisnessLogic.Core.Servives
 
         public Task<bool> DoesExist(int numberPrefix, int number)
         {
-            throw new NotImplementedException();
+            bool result = await _context.Users.AnyAsync (x => x.PhoneNumberPrefix == numberPrefix && x.PhoneNumber == number)
         }
 
         public async Task<UserInformationBlo> Get(int userId)
@@ -59,9 +59,19 @@ namespace Albina.BuisnessLogic.Core.Servives
             
         }
 
-        public Task<UserInformationBlo> Update(UserIndentityBlo userIndentityBlo, UserUpdateBlo userUpdateBlo)
+        public async Task<UserInformationBlo> Update(UserIndentityBlo userIndentityBlo, UserUpdateBlo userUpdateBlo)
         {
-            throw new NotImplementedException();
+           UserRto user = await _context.Users.FirstOrDefaultAsync(f => f.PhoneNumber == userIndentityBlo.Number
+             && f.PhoneNumberPrefix == userIndentityBlo.NumberPrefix);
+            if (user == null) throw new NotFoundExceptions("Такой пользователь не найден");
+            user.Name = userUpdateBlo.Name;
+            user.Surname = userUpdateBlo.Surname;
+            user.ImageUrl = userUpdateBlo.ImageUrl;
+            user.Password = userUpdateBlo.Password;
+            await _context.SaveChangesAsync();
+            return await ConvertToUserInformation(user);
+
+
         }
 
         private async Task<UserInformationBlo> ConvertToUserInformation(UserRto userRto)

@@ -4,6 +4,68 @@
     "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albinaserv\\Albinaserv.csproj": {}
   },
   "projects": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj",
+        "projectName": "Albina.DataAccess.Core",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albinaserv\\Albinaserv.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +74,81 @@
         "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albinaserv\\Albinaserv.csproj",
         "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albinaserv\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj"
+              },
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Aldf\\Albina.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Aldf\\Albina.Core.csproj"
+              },
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\dfdsfsdfsdf\\Albina.BuisnessLogic.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\dfdsfsdfsdf\\Albina.BuisnessLogic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Aldf\\Albina.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Aldf\\Albina.Core.csproj",
+        "projectName": "Albina.Core",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Aldf\\Albina.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Aldf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -52,9 +189,135 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\dfdsfsdfsdf\\Albina.BuisnessLogic.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\dfdsfsdfsdf\\Albina.BuisnessLogic.Core.csproj",
+        "projectName": "Albina.BuisnessLogic.Core",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\dfdsfsdfsdf\\Albina.BuisnessLogic.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\dfdsfsdfsdf\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Albin.DataAcess.Core\\Albina.DataAccess.Core.csproj"
+              },
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Share\\Shareds.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Share\\Shareds.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Share\\Shareds.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Share\\Shareds.csproj",
+        "projectName": "Shareds",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Share\\Shareds.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Albinaserveee\\Albinaserv\\Share\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
